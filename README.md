@@ -82,35 +82,10 @@ An unsupervised machine learning pipeline designed to segment consumer populatio
 
 ---
 
-### 4. Automated Real Estate Valuation Pipeline & Fair-Value ML Model
-* **Tech Stack:** Python, Scikit-Learn, Automated Ingestion Pipeline, Pandas, NumPy, Seaborn
-* **Directory:** [`04_custom_real_estate_pipeline/`](./04_custom_real_estate_pipeline)
-
-**Overview:**  
-An Automated Valuation Model (AVM) featuring a custom data ingestion pipeline (`ingest_real_estate_data.py`) simulating live property listing feeds. Engineers spatial/structural features and deploys an **Anomaly Detection Engine** to flag undervalued investment listings.
-
-**Key Highlights & Metrics:**
-* Engineered domain features including `LocationConvenienceIndex`, `PropertyAge`, `PricePerSqFt`, and `BedToBathRatio`.
-* Gradient Boosting Regressor achieved an **$R^2$ of 0.8920** (5-Fold CV $R^2$: 0.8810) and **MAE of \$31,250**.
-* Built an automated anomaly detection threshold identifying listings $\ge 15\%$ below predicted fair market value for investor deal alerts.
-
----
-
-### 5. Live Market Volatility & Algorithmic Trading Signal Detector
-* **Tech Stack:** Python, Scikit-Learn, Technical Analysis (RSI, MACD, Bollinger Bands), Pandas, NumPy
-* **Directory:** [`05_financial_trading_signal_detector/`](./05_financial_trading_signal_detector)
-
-**Overview:**  
-A quantitative financial strategy pipeline that ingests daily market OHLCV data, engineers technical momentum indicators, trains machine learning classifiers for next-day price direction, and backtests strategy performance against a passive Buy-and-Hold benchmark.
-
-**Key Highlights & Metrics:**
-* Engineered key technical signals: 14-Day RSI, Bollinger Band Width (`BB_Width`), MACD Histogram, and Rolling Volatility.
-* ML Quant Strategy achieved an **Annualized Sharpe Ratio of 1.24** vs. 0.45 for Buy-and-Hold.
-* Reduced **Maximum Drawdown to -8.20%** (compared to -24.50% for passive holding) by shifting to cash during high-volatility downtrends.
-
-
-
 ### Wisconsin Breast Cancer Classification Model
+* Final project for course:
+   * Data Analytics Applications and Modeling.
+   * County College of Morris (Center for Workforce Development)
 * **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
 * **Directory:** Customer_Segmentation
 
