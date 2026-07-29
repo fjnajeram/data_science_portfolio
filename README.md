@@ -87,7 +87,7 @@ An unsupervised machine learning pipeline designed to segment consumer populatio
    * Data Analytics Applications and Modeling.
    * County College of Morris (Center for Workforce Development)
 * **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
-* **Directory:** Customer_Segmentation
+* **Directory:** MCC_DataAnalyticsModeling/MCC_DataAnalyticsModeling/
 
 **Overview:**  
 A machine learning classification project evaluating diagnostic features derived from digitized fine needle aspirate (FNA) images of breast masses. The objective was to build and tune a highly reliable binary classifier to distinguish between malignant and benign tumors.
@@ -102,7 +102,7 @@ A machine learning classification project evaluating diagnostic features derived
 
 ### Automated Customer Segmentation & Report Generator
 * **Tech Stack:** Python, Pandas, Scikit-Learn (K-Means), Matplotlib, Seaborn, Jinja2 / PDF Engine
-* **Repository:** `[Link to Repository]`
+* **Directory:** Customer_Segmentation
 
 **Overview:**  
 An end-to-end data pipeline tool that ingests customer demographic and behavioral data, performs unsupervised clustering (K-Means), and automatically generates a structured analytical report summarizing distinct customer personas for business stakeholders.
