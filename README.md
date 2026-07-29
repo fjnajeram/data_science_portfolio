@@ -82,7 +82,7 @@ An unsupervised machine learning pipeline designed to segment consumer populatio
 
 ---
 
-### Wisconsin Breast Cancer Classification Model
+### Wisconsin Breast Cancer Classification Model (MCC_DataAnalyticsModeling)
 * Final project for course:
    * Data Analytics Applications and Modeling.
    * County College of Morris (Center for Workforce Development)
