@@ -32,9 +32,7 @@ With 20+ years of experience writing Python tools, optimizing asset processing p
 ## 📫 Connect With Me
 
 * **LinkedIn:** [linkedin.com/in/fernando-najera-medina-7916224](https://www.linkedin.com/in/fernando-najera-medina-7916224)
-* **Portfolio & Demo Reels:** [fernajera.com](https://fernajera.com/demo-reels.html)
-* **Email:** fjnajeram@gmail.com
-* **Location:** Randolph, NJ
+* **Location:** NJ, USA
 
 ---
 
