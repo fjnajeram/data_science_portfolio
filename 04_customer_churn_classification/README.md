@@ -45,7 +45,7 @@ This project delivers a machine learning classification pipeline designed to ide
 
 1. Navigate to directory:
    ```bash
-   cd 02_customer_churn_classification
+   cd 04_customer_churn_classification
    ```
 
 2. Run data downloader and launch notebook:

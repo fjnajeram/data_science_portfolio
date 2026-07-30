@@ -53,18 +53,21 @@ An end-to-end healthcare economics regression analysis evaluating actuarial medi
 * Achieved an **$R^2$ of 0.8764** and **MAE of \$2,430.27** on unseen test data using Linear/Lasso Regression.
 
 ---
-
-### 2. Customer Churn & Retention Machine Learning Classifier
-* **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Seaborn, Matplotlib
-* **Directory:** [`02_customer_churn_classification/`](./02_customer_churn_classification)
+### 2. Wisconsin Breast Cancer Classification Model (MCC_DataAnalyticsModeling)
+* Final project for course:
+   * Data Analytics Applications and Modeling.
+   * County College of Morris (Center for Workforce Development)
+* **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
+* **Directory:** [`02_WisconsinBreastCancer/`](02_WisconsinBreastCancer)
 
 **Overview:**  
-A subscription business classification pipeline that predicts customer churn risk prior to cancellation. Evaluates Logistic Regression, Random Forest, and Gradient Boosting, focusing on threshold tuning to minimize customer acquisition loss.
+A machine learning classification project evaluating diagnostic features derived from digitized fine needle aspirate (FNA) images of breast masses. The objective was to build and tune a highly reliable binary classifier to distinguish between malignant and benign tumors.
 
-**Key Highlights & Metrics:**
-* Discovered that short tenure (< 12 months) combined with Month-to-Month contracts account for **>60% of total churn volume**.
-* Gradient Boosting achieved top overall performance with an **ROC-AUC of 0.8465** and **Accuracy of 80.62%**.
-* Optimized classification decision threshold to **0.35**, increasing **Churn Sensitivity (Recall) to 78.50%** to capture at-risk accounts proactively.
+**Key Technical Highlights:**
+* Performed Exploratory Data Analysis (EDA) and feature correlation profiling to identify key predictive parameters (e.g., radius, texture, concavity).
+* Handled feature scaling and comparison across multiple algorithms (Logistic Regression, Support Vector Machines, and Random Forest).
+* Optimized hyperparameter configurations prioritizing **High Recall for Malignant cases** to minimize false negatives in medical diagnostics.
+* Evaluated models using Confusion Matrices, ROC-AUC curves, and Precision-Recall tradeoffs.
 
 ---
 
@@ -82,27 +85,23 @@ An unsupervised machine learning pipeline designed to segment consumer populatio
 
 ---
 
-### Wisconsin Breast Cancer Classification Model (MCC_DataAnalyticsModeling)
-* Final project for course:
-   * Data Analytics Applications and Modeling.
-   * County College of Morris (Center for Workforce Development)
-* **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
-* **Directory:** MCC_DataAnalyticsModeling/MCC_DataAnalyticsModeling/
+### 4. Customer Churn & Retention Machine Learning Classifier
+* **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Seaborn, Matplotlib
+* **Directory:** [`04_customer_churn_classification/`](04_customer_churn_classification)
 
 **Overview:**  
-A machine learning classification project evaluating diagnostic features derived from digitized fine needle aspirate (FNA) images of breast masses. The objective was to build and tune a highly reliable binary classifier to distinguish between malignant and benign tumors.
+A subscription business classification pipeline that predicts customer churn risk prior to cancellation. Evaluates Logistic Regression, Random Forest, and Gradient Boosting, focusing on threshold tuning to minimize customer acquisition loss.
 
-**Key Technical Highlights:**
-* Performed Exploratory Data Analysis (EDA) and feature correlation profiling to identify key predictive parameters (e.g., radius, texture, concavity).
-* Handled feature scaling and comparison across multiple algorithms (Logistic Regression, Support Vector Machines, and Random Forest).
-* Optimized hyperparameter configurations prioritizing **High Recall for Malignant cases** to minimize false negatives in medical diagnostics.
-* Evaluated models using Confusion Matrices, ROC-AUC curves, and Precision-Recall tradeoffs.
+**Key Highlights & Metrics:**
+* Discovered that short tenure (< 12 months) combined with Month-to-Month contracts account for **>60% of total churn volume**.
+* Gradient Boosting achieved top overall performance with an **ROC-AUC of 0.8465** and **Accuracy of 80.62%**.
+* Optimized classification decision threshold to **0.35**, increasing **Churn Sensitivity (Recall) to 78.50%** to capture at-risk accounts proactively.
 
 ---
 
 ### Automated Customer Segmentation & Report Generator
 * **Tech Stack:** Python, Pandas, Scikit-Learn (K-Means), Matplotlib, Seaborn, Jinja2 / PDF Engine
-* **Directory:** Customer_Segmentation
+* **Directory:** [`Customer_Segmentation/`](Customer_Segmentation)
 
 **Overview:**  
 An end-to-end data pipeline tool that ingests customer demographic and behavioral data, performs unsupervised clustering (K-Means), and automatically generates a structured analytical report summarizing distinct customer personas for business stakeholders.
